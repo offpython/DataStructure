@@ -19,6 +19,11 @@ strs = [3.14, '십', 20, 'one', '3.141592']
 print(f'strs : {strs}')
 print(type(strs))
 
+# 리스트에 또 다른 컨테이너 자료형 데이터를 저장할 수도 있다.
+datas = [10, 20, 30, [40, 50, 60]]
+print(f'strs : {datas}')
+print(type(datas))
+
 # 실습1
 myFamilyNames = ['홍아빠', '홍엄마', '홍길동', '홍동생']
 print(myFamilyNames)
