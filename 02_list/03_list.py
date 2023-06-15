@@ -10,7 +10,7 @@ print(type(sLength))
 # len()를 이용한 조회
 # len()과 반복문을 이용하면 리스트의 아이템 조회가 가능하다.
 
-for문
+#for문
 for i in range(len(students)):
     print(students[i])
 
@@ -30,7 +30,7 @@ str = 'Hello World'
 print(len(str))
 
 # 실습1
-myFavSports = ['수영', '야구', '야구', '조깅']
+myFavSports = ['수영', '농구', '야구', '조깅']
 
 for item in myFavSports:
     print(item)
