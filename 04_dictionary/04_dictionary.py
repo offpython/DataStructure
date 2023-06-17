@@ -58,7 +58,7 @@ while True:
         break
 
 print(f'myBodyInfo : {myBodyInfo}')
-print(f'myBMI : {myBMI}')
+print(f'myBMI : {round(myBMI, 2)}')
 
 
 
