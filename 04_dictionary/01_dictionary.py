@@ -4,7 +4,7 @@
 ## 숫자/문자/논리형 + 컨테이너 자료형도 올 수 있다.
 ## 단, key에 immutable(변경불가능)값은 올 수 있지만 mutable값은 올 수 없다.
 
-students = {'s1' : '홍길동', 's2': '박찬호', 's3': '이용규', 's4':{'박세리', '박공주'}}
+students = {'s1' : '홍길동', 's2': '박찬호', 's3': '이용규', 's4':['박세리', '박공주']}
 print('students : {}'.format(students))
 print('students : {}'.format(type(students)))
 
