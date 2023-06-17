@@ -1,37 +1,37 @@
-# # 딕셔너리 수정
-# ## '딕셔너리이름[키] = 값' 형태로 아이템 수정
-#
-# myInfo = {}
-#
-# myInfo['이름'] = '박경진'
-# myInfo['전공'] = 'computer'
-# myInfo['메일'] = 'jin@naver.com'
-# myInfo['학년'] = 3
-# myInfo['주소'] = '대한민국 서울'
-# myInfo['취미'] = ['요리', '여행']
-# print(myInfo)
-#
-# myInfo['메일'] = 'jin@gmail.com'
-# print(myInfo)
-#
-# # 실습1
-# ## 학생의 시험 점수가 60점 미만이면 'F(재시험)'으로 값을 변경
-# scores = {'kor':88, 'eng':55, 'mat':85, 'sci':57, 'his':82}
-# print(f'scores : {scores}')
-#
-# minScore = 60
-# fStr = 'F(재시험)'
-# if scores['kor'] < minScore:
-#     scores['kor'] = fStr
-# if scores['eng'] < minScore:
-#     scores['eng'] = fStr
-# if scores['mat'] < minScore:
-#     scores['mat'] = fStr
-# if scores['sci'] < minScore:
-#     scores['sci'] = fStr
-# if scores['his'] < minScore:
-#     scores['his'] = fStr
-# print(f'scores : {scores}')
+# 딕셔너리 수정
+## '딕셔너리이름[키] = 값' 형태로 아이템 수정
+
+myInfo = {}
+
+myInfo['이름'] = '박경진'
+myInfo['전공'] = 'computer'
+myInfo['메일'] = 'jin@naver.com'
+myInfo['학년'] = 3
+myInfo['주소'] = '대한민국 서울'
+myInfo['취미'] = ['요리', '여행']
+print(myInfo)
+
+myInfo['메일'] = 'jin@gmail.com'
+print(myInfo)
+
+# 실습1
+## 학생의 시험 점수가 60점 미만이면 'F(재시험)'으로 값을 변경
+scores = {'kor':88, 'eng':55, 'mat':85, 'sci':57, 'his':82}
+print(f'scores : {scores}')
+
+minScore = 60
+fStr = 'F(재시험)'
+if scores['kor'] < minScore:
+    scores['kor'] = fStr
+if scores['eng'] < minScore:
+    scores['eng'] = fStr
+if scores['mat'] < minScore:
+    scores['mat'] = fStr
+if scores['sci'] < minScore:
+    scores['sci'] = fStr
+if scores['his'] < minScore:
+    scores['his'] = fStr
+print(f'scores : {scores}')
 
 # 실습2
 ## 하루에 몸무게와 신장이 각각 -0.3kg +0.001m씩 변한다고 할 때,
