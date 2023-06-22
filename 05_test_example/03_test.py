@@ -41,4 +41,4 @@ print(f'어르신\t : {group5}명\t, 요금 : {group5Price}원')
 print('-'*30)
 sum = group1Price + group2Price + group3Price + group4Price + group5Price
 print(f'총 합계\t : {format(sum, ",")}원')
-print('-'*30)      
+print('-'*30)
