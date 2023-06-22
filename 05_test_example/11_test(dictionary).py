@@ -1,15 +1,15 @@
-# # 딕셔너리(01)
-#
-# ## 과목별 점수를 딕셔너리에 저장하고 출력하는 프로그램
-#
-# subject = ['국어', '영어', '수학', '과학', '국사']
-# scores = {}
-#
-# for s in subject:
-#     score = int(input(s + ' 점수 입력 :'))
-#     scores[s] = score
-#
-# print(f'과목별 점수 : {scores}')
+# 딕셔너리(01)
+
+## 과목별 점수를 딕셔너리에 저장하고 출력하는 프로그램
+
+subject = ['국어', '영어', '수학', '과학', '국사']
+scores = {}
+
+for s in subject:
+    score = int(input(s + ' 점수 입력 :'))
+    scores[s] = score
+
+print(f'과목별 점수 : {scores}')
 
 ## 사용자의 아이디, 비밀번호를 이용해서 로그인 프로그램을 만들기
 
