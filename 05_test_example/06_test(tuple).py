@@ -2,9 +2,9 @@
 
 ## 자주 접속하는 웹사이트 비번을 튜플에 저장
 
-# passwds = ('password1234', 'abc123','qwerty','letmein', 'welcome00')
-# print(type(passwds))
-# print(f'passwds : {passwds}')
+passwds = ('password1234', 'abc123','qwerty','letmein', 'welcome00')
+print(type(passwds))
+print(f'passwds : {passwds}')
 
 ## 길동이의 1,2,3학년 성적(scores)은 다음과 같다.
 ## 졸업할 때 4.0 이상의 학점을 받기위해, 길동이가 받아야하는 4학년 1, 2학기의 최소 학점을 구해보자
