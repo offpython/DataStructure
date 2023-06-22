@@ -33,10 +33,12 @@ group4Price = group4 * 500
 group5Price = group5 * 0
 
 print('-'*30)
-print(f'영유아 : {group1}명, 요금 : {group1Price}원')
-print(f'어린이 : {group2}명, 요금 : {group2Price}원')
-print(f'청소년 : {group3}명, 요금 : {group3Price}원')
-print(f'성인 : {group4}명, 요금 : {group4Price}원')
-print(f'어르신 : {group5}명, 요금 : {group5Price}원')
+print(f'영유아\t : {group1}명\t, 요금 : {group1Price}원')
+print(f'어린이\t : {group2}명\t, 요금 : {group2Price}원')
+print(f'청소년\t : {group3}명\t, 요금 : {group3Price}원')
+print(f'성인\t\t : {group4}명\t, 요금 : {group4Price}원')
+print(f'어르신\t : {group5}명\t, 요금 : {group5Price}원')
 print('-'*30)
-
+sum = group1Price + group2Price + group3Price + group4Price + group5Price
+print(f'총 합계\t : {format(sum, ",")}원')
+print('-'*30)      
